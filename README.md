@@ -23,11 +23,31 @@ An interactive chatbot for scientific literature exploration powered by Retrieva
 
 ## How to Use (in Google Colab)
 
-1. Open **ChatBotUsingRAGUpload.ipynb** on goole colab and it has all the instructions.
-2. Upload the PDF File
-3. Click **Create Embeddings**.
-4. Click **Load LLM** (Falcon 7B).
-5. Click **Start Chatbot** and begin asking questions!
+- Upload all required `.py` files (e.g., `main_interface.py`, `upload_pdf.py`, etc.) from the **ChatBotUsingRAG** folder to the Colab environment.
+- Open **`ChatBotUsingRAGUpload.ipynb`** in [Google Colab](https://colab.research.google.com/).
+- Upload your **PDF file**.
+- Click **🔗 Create Embeddings**.
+- Click **⚙️ Load LLM** (Falcon 7B).
+- Click **💬 Start Chatbot** and begin asking questions!
+
+
+> 📌 All instructions are included within the notebook.
+
+---
+
+## Resources on Google Colab
+
+| Requirement         | Recommended |
+|---------------------|-------------|
+| 💾 System RAM        | Minimum **100 GB** |
+| 💽 Disk Space        | Minimum **100 GB** |
+| 🚀 Hardware Accelerator | **v2-8 TPU** or better |
+
+> ✅ **Ensure you have GPU enabled in your Colab Runtime for optimal performance.**
+
+To enable GPU in Colab:
+- Click `Runtime` → `Change runtime type` → Set **Hardware accelerator** to `GPU` or `TPU`.
+
 
 ## Model Used
 
@@ -47,12 +67,7 @@ An interactive chatbot for scientific literature exploration powered by Retrieva
 For questions, suggestions, or collaborations, please reach out to the Sukanksha Totade @ sukankshatotade1@gmail.com
 
 
-## Resources on Google Colab
-- System RAM : Min 100GB
-- Disk - Min 100 GB
-- Hardware Accelerator - v2-8 TPU
 
-> Ensure you have GPU enabled in your Colab Runtime for best performance.
 
 
 
