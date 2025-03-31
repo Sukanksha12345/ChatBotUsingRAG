@@ -13,17 +13,6 @@ An interactive chatbot for scientific literature exploration powered by Retrieva
 | `load_llm.py`           | Loads LLM (e.g., HuggingFace pipeline)              |
 | `chatbot_core.py`       | Core logic for retrieval, prompting, chat UI        |
 
-
-
-## Files
-
-- `ChatBotUsingRAG.ipynb` — Clean notebook UI to run everything
-- `main_interface.py` — Python-only version of the UI
-- `upload_pdf.py` — Handles PDF upload and text extraction
-- `embed_text.py` — Handles text chunking, embedding, and FAISS index
-- `load_llm.py` — Loads Falcon-7B LLM via HuggingFace
-- `chatbot_core.py` — Handles Q&A generation and UI chat interface
-
 ## Features
 
 - Upload and extract text from PDF research papers
