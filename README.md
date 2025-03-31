@@ -1,4 +1,4 @@
-# HER-2/neu Research Assistant (RAG-based Chatbot)
+# Interactive ChatBot (RAG-based Chatbot)
 
 An interactive chatbot for scientific literature exploration powered by Retrieval-Augmented Generation (RAG). This tool allows researchers and students to upload a HER-2/neu-related PDF, generate embeddings for document understanding, and ask contextual questions using an integrated LLM pipeline.
 
