@@ -4,13 +4,15 @@ An interactive chatbot for scientific literature exploration powered by Retrieva
 
 ## Project Structure
 
+| File/Directory        | Description                                           |
+|----------------------|-------------------------------------------------------|
+| `ChatBotUsingRAG.ipynb` | Notebook interface for launching the assistant      |
+| `main_interface.py`     | Modular UI for production-style interaction         |
+| `upload_pdf.py`         | Handles PDF upload and text extraction              |
+| `embed_text.py`         | Chunks document and creates FAISS embeddings        |
+| `load_llm.py`           | Loads LLM (e.g., HuggingFace pipeline)              |
+| `chatbot_core.py`       | Core logic for retrieval, prompting, chat UI        |
 
-|--- ChatBotUsingRAG.ipynb       # Notebook interface for launching the assistant
-|--- main_interface.py           # Modular UI for production-style interaction
-|--- upload_pdf.py               # Handles PDF upload and text extraction
-|--- embed_text.py               # Chunks document and creates FAISS embeddings
-|--- load_llm.py                 # Loads LLM (e.g., HuggingFace pipeline)
-|--- chatbot_core.py             # Core logic for retrieval, prompting, chat UI
 
 
 ## Files
