@@ -2,6 +2,10 @@ from sentence_transformers import SentenceTransformer
 import faiss
 import ipywidgets as widgets
 from IPython.display import display
+import pickle
+import numpy as np
+import pandas as pd
+
 
 docs, embedding_model, index = [], None, None
 get_text_func = None
@@ -55,6 +59,10 @@ create_embedding_button = widgets.Button(description="📌 Create Embeddings", b
 create_embedding_button.on_click(handle_embedding)
 
 create_embedding_widget = widgets.VBox([create_embedding_button, spinner, output])
+
+query_proj = None
+def project_query_embedding(query_embedding):
+    return query_embedding
 
 def get_embedding_components():
     return embedding_model, index, docs
