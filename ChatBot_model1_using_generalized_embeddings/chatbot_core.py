@@ -14,9 +14,9 @@ conversation_history = []
 def retrieve_context(query, k=3):
     embedding_model, index, docs = get_embedding_components()
     raw_query_embedding = embedding_model.encode([query])
-    print("Raw query embedding shape:", raw_query_embedding.shape)  # Debug print
+    # print("Raw query embedding shape:", raw_query_embedding.shape)  # Debug print
     query_embedding = project_query_embedding(raw_query_embedding)
-    print("Projected query embedding shape:", query_embedding.shape)  # Debug print
+    # print("Projected query embedding shape:", query_embedding.shape)  # Debug print
     distances, indices = index.search(query_embedding, k)
     return [docs[i] for i in indices[0]]
 
