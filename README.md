@@ -1,6 +1,6 @@
 # Interactive ChatBot (RAG-based Chatbot)
 
-An interactive chatbot for scientific literature exploration powered by Retrieval-Augmented Generation (RAG). This tool allows researchers and students to upload a HER-2/neu-related PDF, generate embeddings for document understanding, and ask contextual questions using an integrated LLM pipeline.
+An interactive chatbot for scientific literature exploration powered by Retrieval-Augmented Generation (RAG). This tool allows researchers and students to upload a HER-2/neu-related PDF, generate embeddings for document understanding, and ask contextual questions using an integrated LLM pipeline. We created two chatbots: one using Clinical-knowledge-embeddings(full_h_embed_hms.pkl) and 2nd one Lightweight sentence transformer for encoding both document chunks and queries(intfloat/e5-small-v2).
 
 ## Project Structure
 
@@ -39,8 +39,8 @@ An interactive chatbot for scientific literature exploration powered by Retrieva
 
 | Requirement         | Recommended |
 |---------------------|-------------|
-| 💾 System RAM        | Minimum **100 GB** |
-| 💽 Disk Space        | Minimum **100 GB** |
+| 💾 System RAM        | Minimum **35 GB** |
+| 💽 Disk Space        | Minimum **40 GB** |
 | 🚀 Hardware Accelerator | **v2-8 TPU** or better |
 
 > ✅ **Ensure you have GPU enabled in your Colab Runtime for optimal performance.**
