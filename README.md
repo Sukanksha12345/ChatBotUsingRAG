@@ -1,6 +1,6 @@
 # Interactive ChatBot (RAG-based Chatbot)
 
-An interactive chatbot for scientific literature exploration powered by Retrieval-Augmented Generation (RAG). This tool allows researchers and students to upload a HER-2/neu-related PDF, generate embeddings for document understanding, and ask contextual questions using an integrated LLM pipeline. We created two chatbots: one using Clinical-knowledge-embeddings(full_h_embed_hms.pkl) and 2nd one Lightweight sentence transformer for encoding both document chunks and queries(intfloat/e5-small-v2).
+An interactive chatbot for scientific literature exploration powered by Retrieval-Augmented Generation (RAG). This tool allows researchers and students to upload a HER-2/neu-related PDF, generate embeddings for document understanding, and ask contextual questions using an integrated LLM pipeline. I **developed two chatbots**: one using Clinical-knowledge-embeddings(full_h_embed_hms.pkl) and 2nd one Lightweight sentence transformer for encoding both document chunks and queries(intfloat/e5-small-v2).
 
 ## Project Structure
 
