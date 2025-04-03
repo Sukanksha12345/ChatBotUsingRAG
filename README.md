@@ -51,7 +51,7 @@ To enable GPU in Colab:
 
 ## Model Used
 
-- Embedding Model: `intfloat/e5-small-v2`
+- Embedding Model: `full_h_embed_hms.pkl` and `intfloat/e5-small-v2` 
 - LLM: `tiiuae/falcon-7b-instruct`
 
 ## Technologies Used
