@@ -55,7 +55,7 @@ def handle_embedding(b):
         with output:
             print("❌ Error loading precomputed embeddings:", str(e))
 
-create_embedding_button = widgets.Button(description="📌 Load Precomputed Embeddings", button_style="warning")
+create_embedding_button = widgets.Button(description="📌 Create Embeddings", button_style="warning")
 create_embedding_button.on_click(handle_embedding)
 
 create_embedding_widget = widgets.VBox([create_embedding_button, spinner, output])
