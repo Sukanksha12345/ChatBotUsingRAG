@@ -23,12 +23,25 @@ An interactive chatbot for scientific literature exploration powered by Retrieva
 
 ## How to Use (in Google Colab)
 
-- Upload all required `.py` files (e.g., `main_interface.py`, `upload_pdf.py`, etc.) from the **ChatBotUsingRAG** folder to the Colab environment.
 - Open **`ChatBotUsingRAGUpload.ipynb`** in [Google Colab](https://colab.research.google.com/).
-- Upload your **PDF file**.
-- Click **🔗 Create Embeddings**.
-- Click **⚙️ Load LLM** (Falcon 7B).
-- Click **💬 Start Chatbot** and begin asking questions!
+- Upload all file from the Models's folder except .ipynb. 
+- Update the Resource runtime to L4 GPU or higher
+- `ChatBotUsingRAGUpload.ipynb` file has all the instructions:
+    - Uncomment the first code line and install all packages
+    - Comment above line and rerun it
+    - Run step 2 code which will upload all the functionalities
+    - Run Step 3 which will start process, Follow instructions on the screen and wait till the button instructs you to do next 
+        - Upload your **PDF file**.
+        - Click **🔗 Create Embeddings**.
+        - Click **⚙️ Load LLM** (Falcon 7B).
+        - Click **💬 Start Chatbot** and begin asking questions!
+
+**Note**: For clinical-knowledge-embedding model - Upload below files(provided in the folder):
+- full_h_embed_hms.csv
+- full_h_embed_hms.pkl
+- new_homo_hg_hms.pt
+- new_node_map_df.csv
+
 
 
 > 📌 All instructions are included within the notebook.
@@ -39,9 +52,12 @@ An interactive chatbot for scientific literature exploration powered by Retrieva
 
 | Requirement         | Recommended |
 |---------------------|-------------|
-| 💾 System RAM        | Minimum **35 GB** |
-| 💽 Disk Space        | Minimum **40 GB** |
+| 💾 System RAM        | Minimum **53 GB** |
+| 💾 GPU RAM        | Minimum **22 GB** |
+| 💽 Disk Space        | Minimum **235 GB** |
 | 🚀 Hardware Accelerator | **v2-8 TPU** or better |
+
+- For my analysis I used V2-8 TPU but I found L4 GPU works pretty well
 
 > ✅ **Ensure you have GPU enabled in your Colab Runtime for optimal performance.**
 
