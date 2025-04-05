@@ -55,9 +55,9 @@ An interactive chatbot for scientific literature exploration powered by Retrieva
 | 💾 System RAM        | Minimum **53 GB** |
 | 💾 GPU RAM        | Minimum **22 GB** |
 | 💽 Disk Space        | Minimum **235 GB** |
-| 🚀 Hardware Accelerator | **v2-8 TPU** or better |
+| 🚀 Hardware Accelerator | **v4-GPU** or better |
 
-- For my analysis I used V2-8 TPU but I found L4 GPU works pretty well
+- L4 GPU or higher works pretty well
 
 > ✅ **Ensure you have GPU enabled in your Colab Runtime for optimal performance.**
 
